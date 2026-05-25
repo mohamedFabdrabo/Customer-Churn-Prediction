@@ -1,24 +1,29 @@
-# Instructions on how to access and work on your assignment
+# Customer Churn Prediction
 
-## Accessing and committing to your assignment repo via Google Colab
+This repository contains a churn analysis and classification workflow for telecom customers. It is designed to illustrate how to explore customer behavior, prepare churn data, and build a predictive classification model.
 
-1. Go to https://colab.research.google.com/github
-2. Click the "Include Private Repos" checkbox
-3. In the popup window, sign-in to your GitHub account and authorize Colab to read the private repos
-4. Your private repositories and notebooks will now be available; select your mini-project repository and click on the Mini-Project notebook to start working on it
-5. To save your notebook progress, click on "File" in the toolbar, and select "Save a copy in GitHub". You may then edit the commit message if desired and click on "Ok".
+## Repository contents
+- `Customer Churn Analysis and Prediction.ipynb` — primary notebook with the full analysis pipeline
+- `telecom_churn.csv` — dataset used for exploration, feature engineering, and model training
+- `.gitignore` — repository ignore rules
 
-## Accessing and committing to your assignment repo via local Jupyter installation
+## What’s included
+- data overview and exploratory analysis
+- feature preparation and data cleaning
+- model training for churn prediction
+- evaluation of classification performance
+- interpretation of results and business insights
 
-Familiarity with `git` is assumed. If you're unfamiliar with `git`, it'd be best to brush up on basic `git` concepts using online tutorials as it is a core part of any data science workflow that uses Python/R. Recommended starters: [Roger Dudler's simple guide to git](https://rogerdudler.github.io/git-guide/); [GitHub's Git Handbook](https://guides.github.com/introduction/git-handbook/); [GitHub's git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf).
+## Purpose
+This project is intended as a learning example for classification problems, with a focus on:
+- understanding churn drivers in telecom data
+- comparing model performance
+- building a reproducible data science workflow
 
-1. Git clone the repository `git clone https://github.com/{YOUR_USERNAME}/{YOUR_REPO}.git`
-2. Make sure you have the necessary python packages installed (or a recent anaconda distribution) installed. If using anaconda, you may want to invoke `conda upgrade --all` in the command line to make sure all your packages are up-to-date
-3. Launch Jupyter notebook and navigate to where you cloned the repo; you may then work on the notebook and save it as you're working on it
-4. You may then commit changes as they are ready by `git commit -am "YOUR_COMMIT_MSG"`, and then pushing to your assignment repo using `git push`
+## How to use
+Open `Customer Churn Analysis and Prediction.ipynb` in Jupyter or VS Code and run the notebook cells sequentially. The notebook is the main entry point and contains both code and analysis narrative.
 
-## Additional Notes/Clarifications
+## Notes
+- The notebook is the recommended way to explore the data and reproduce the workflow.
+- The dataset is stored locally in `telecom_churn.csv` and is used directly by the notebook.
 
-- You may commit and push to your assignment repo as many times as you'd like as only the final state of your repo will be counted as your submission
-- If you're done working on the mini-project and pushed/saved your changes to it, no further input or submission procedure is required of you
-- Your repository will be automatically locked when the assignment's due date passes, so please keep that in mind when working late close to the assignment's deadline
